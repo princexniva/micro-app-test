@@ -1,8 +1,7 @@
-print("hello, micro!")
+def sum(a, b):
+    return (a + b)
 
-print("running python code...")
-a = input("<get-input>Enter a number: \n")
-print("Enter number again: ")
-b = input("<get-input>\n")
-print("The sum is:", a+b)
-print("bye!")
+a = int(input('Enter 1st number: '))
+b = int(input('Enter 2nd number: '))
+
+print(f'Sum of {a} and {b} is {sum(a, b)}')
