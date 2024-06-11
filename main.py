@@ -7,6 +7,10 @@ b = int(input('Enter 2nd number: '))
 print('<h1 style="color: red; font-size: 100px;">Hello</h1>')
 print('<h3 style="color: red;">Hello</h3>')
 
+print()
+print("\x1b[32m5\x1b[0m")
+print()
+
 
 print('''+----+----+--------------------------------+----+----+
 | B  | I  |               N                | G  | O  |
